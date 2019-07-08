@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://st2.depositphotos.com/1005738/7507/v/950/depositphotos_75074587-stock-illustration-retro-80s-style-seamless-pattern.jpg");
+    background-size: 300px 300px;
+}
+
+.menu {
+    background-color: white;
+    font-size: 30;
+    text-align: center;
+}
+
+.text {
+    background-image: url("https://image.freepik.com/free-vector/90s-forever-design_18591-11546.jpg");
+    background-size: 50px 50px;
+    font-size: 25;
+    color: white;
+}
+
+.homeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 50%;
+}
+
+.techimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+.historyimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+.allbikeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 100;
+    float: center;
+}
+
+.safeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
