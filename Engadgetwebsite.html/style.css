@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://www.solidbackgrounds.com/download/2560x1440-blue-abstract-noise-free-website-background-image.jpg);
+}
+
+#container {
+    color: white;
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+    width: 100%;
+    font: arial;
+}
+
+.navbar a {
+    color: white;
+}
+
+.featured-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.featured-text img{
+    height: 300px;
+    width: auto;
+}
+
+.featured-product {
+    display: flex;
+    flex-direction: column;
+}
