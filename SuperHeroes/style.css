@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.pic-grid {
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+}
