@@ -1,4 +1,4 @@
-let taskTitleTextBox = document.getElementById("taskTitleTextBox")
+ let taskTitleTextBox = document.getElementById("taskTitleTextBox")
 let enterTask = document.getElementById("enterTask")
 let pendingTasks = document.getElementById("pendingTasks")
 let completedTasks = document.getElementById("completedTasks")
