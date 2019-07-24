@@ -7,11 +7,10 @@ let deleteOrderBtn = document.getElementById("deleteOrderBtn")
 
 function displayAllOrders() {
     let allOrderURL = "http://dc-coffeerun.herokuapp.com/api/coffeeorders/"
-
     fetch(allOrderURL)
         .then((response) => {
             return response.json()
-        }).then(function(orderInfo) {
+        }).then(function(orderInfo) { //Where does orderInfo come from/declared
             let orders = Object.keys(orderInfo).map(function(order) {
                 return  `<li id="orders">
                             <span>Email: ${orderInfo[order].emailAddress}</span>

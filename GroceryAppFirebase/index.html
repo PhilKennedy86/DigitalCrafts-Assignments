@@ -1,0 +1,36 @@
+<html>
+<head></head>
+<body>
+
+    <h3>Add Grocery Store</h3>
+    <input type="text" id="storeNameTextBox" placeholder="Store name"></input>
+    <input type="text" id="storeAddressTextBox" placeholder="Store address"></input>
+    <button id="storeAddBtn">Add Grocery Store</button>
+    <div id="storesListArea"></div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBIpgGLm9C62fJxTFEMnER9N1XlDg2zIP4",
+        authDomain: "groceryapp-d76a8.firebaseapp.com",
+        databaseURL: "https://groceryapp-d76a8.firebaseio.com",
+        projectId: "groceryapp-d76a8",
+        storageBucket: "",
+        messagingSenderId: "367989949191",
+        appId: "1:367989949191:web:a71e8e7dade59e3e"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database()
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
