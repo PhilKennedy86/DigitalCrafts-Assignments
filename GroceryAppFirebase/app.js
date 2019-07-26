@@ -48,6 +48,7 @@ storesRef.on('value', (snapshot) => {
     displayStores(stores)
 })
 
+//Prompt user for grocery items
 function getItems(key) {
     let item = prompt("What item would you like to add to your grocery list?")
     let itemQuantity = prompt("How many of this item would you like?")
