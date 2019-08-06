@@ -1,0 +1,24 @@
+<html>
+<body>
+<h1>Trip App</h1>
+<a href="/submittrip">Add a Trip</a>
+<h3>Our available trips</h3>
+<ul>
+        {{#trips}}    
+        <li>
+            <h4>Trip desination: {{title}}</h4>
+            <img src={{imageURL}}></img>
+            <p>Trip departure: {{leaveDate}}</p>
+            <p>Trip returns: {{returnDate}}</p>
+            <form action="/deletetrip" method="POST">
+                <button>Delete Trip</button>
+                <input type="hidden" name="tripName" value="{{title}}" />
+            </form>
+        </li>
+        {{/trips}}
+    
+
+
+</ul>
+</body>
+</html>
